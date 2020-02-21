@@ -237,7 +237,8 @@ func (c *Client) redirectHeaders(req *http.Request, via []*http.Request) error {
 		}
 	}
 
-	*c.endpointURL = *req.URL
+	// this change is to support tenko redirecting to different gateway caches
+	// *c.endpointURL = *req.URL
 
 	value, err := c.credsProvider.Get()
 	if err != nil {
