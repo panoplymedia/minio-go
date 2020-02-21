@@ -26,7 +26,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/minio/minio-go/v6/pkg/s3utils"
+	"github.com/panoplymedia/minio-go/v6/pkg/s3utils"
 )
 
 // objectRetention - object retention specified in

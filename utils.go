@@ -33,7 +33,7 @@ import (
 
 	"github.com/minio/sha256-simd"
 
-	"github.com/minio/minio-go/v6/pkg/s3utils"
+	"github.com/panoplymedia/minio-go/v6/pkg/s3utils"
 )
 
 func trimEtag(etag string) string {

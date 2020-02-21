@@ -1,4 +1,4 @@
-module github.com/minio/minio-go/v6
+module github.com/panoplymedia/minio-go/v6
 
 go 1.12
 

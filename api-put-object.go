@@ -27,8 +27,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/minio/minio-go/v6/pkg/encrypt"
-	"github.com/minio/minio-go/v6/pkg/s3utils"
+	"github.com/panoplymedia/minio-go/v6/pkg/encrypt"
+	"github.com/panoplymedia/minio-go/v6/pkg/s3utils"
 	"golang.org/x/net/http/httpguts"
 )
 
